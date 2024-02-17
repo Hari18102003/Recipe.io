@@ -168,7 +168,7 @@ const CreateRecipepage = () => {
                                 type="text"
                                 value={newMethod}
                                 onChange={handleChangeMethod}
-                                placeholder="Enter ingredient"
+                                placeholder="Enter method"
                                 className='bg-orange-100 p-2 rounded-lg'
                             />
                             <button type='button' className='bg-orange-300 p-2 rounded-lg' onClick={handleAddMethod}>Add</button>

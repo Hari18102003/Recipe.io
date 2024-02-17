@@ -31,9 +31,11 @@ const Recipespage = () => {
     console.log(search, selectedCooktime);
 
     const handleCooktime = (event) => {
+        event.preventDefault();
         setSelectedCooktime(event.target.value);
     };
     const handleCuisine = (event) => {
+        event.preventDefault();
         setSelectedCuisine(event.target.value);
     };
 
